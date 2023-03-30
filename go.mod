@@ -1,3 +1,3 @@
-module github.com/jeffersonbraster/multithreading-go
+module github.com/jeffersonbraster/go-multithreading
 
 go 1.19

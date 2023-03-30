@@ -69,8 +69,6 @@ func main() {
 		fmt.Printf("ApiCepResponse: %+v\n", response)
 	case <-time.After(time.Second * 1):
 		fmt.Println("Timeout")
-	default:
-		fmt.Println("Nenhum case selecionado")
 	}
 }
 
